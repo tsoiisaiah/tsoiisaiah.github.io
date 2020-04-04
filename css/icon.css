@@ -1,0 +1,43 @@
+.round_icon {
+    display: inline-block;
+    background-color: grey;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.round_icon_text {
+    padding-top: 11.5px;
+    padding-left: 0px;
+}
+
+.linkedin {
+    background-color: rgb(0, 114, 177);
+    color:white;
+    border:2px solid rgb(0, 114, 177);
+    transition: color 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+a:hover .linkedin {
+    background-color: white;
+    color:rgb(0, 114, 177);
+    border:2px solid rgb(0, 114, 177);
+}
+
+
+.email {
+    background-color: darkred;
+    color:white;
+    border:2px solid darkred;
+    transition: color 0.5s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+a:hover .email {
+    background-color: white;
+    color:darkred;
+    border:2px solid darkred;
+}

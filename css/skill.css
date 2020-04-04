@@ -1,0 +1,59 @@
+.skill-set {
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.skill-set ul {
+    list-style-type: none;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+.skill-set li {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 5px 5px 5px;
+    width: 120px;
+}
+
+.skill-bar-container {
+    background-color: lightgrey;
+    height: 15px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.skill-bar-container .bar {
+    text-align: right;
+    background-color: darkgrey;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    height: 15px;
+    font-size: 10px;
+    text-align: left;
+    text-indent: 10px;
+    vertical-align: middle;
+}
+
+.expert {width: 100%;}
+.expert:after {content: "Expert";}
+.experience {width: 80%;}
+.experience:after {content: "Experience";}
+.skillful {width: 60%;}
+.skillful:after {content: "Skillful";}
+.beginner {width: 40%;}
+.beginner:after {content: "Beginner";}
+.novice {width: 20%;}
+.novice:after {content: "Novice";}
+
+.animated-width {
+    animation-name: bar-progress; animation-duration: 1s;
+}
+
+@keyframes bar-progress {
+    from {width: 0; background-color:transparent;}
+}
